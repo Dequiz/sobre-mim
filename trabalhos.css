@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour&family=Workbench&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:radial-gradient(  rgb(32, 32, 211), rgb(14, 5, 139));   
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    height: 773px;
+}
+nav{
+    background-color: rgba(24, 13, 182, 0.884);
+    padding: 1rem;
+    position: absolute;
+    top: 8px;
+    left: 450px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Poppins";
+    color: white;
+    margin: 50px;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+}
+nav a:hover{
+    background-color: rgba(42, 24, 204, 0.774);
+}
+
+iframe:hover{
+    transition: 0.5s all ease-in-out;
+    width: 450px;
+    height: 500px;
+}
+.deco{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 450px;
+    border-radius: 1rem;
+}
+.log{
+    position: relative;
+    top:150px;
+    left: 900px;
+    border-radius: 1rem;
+}
+footer{
+    position:absolute;
+    top: 750px;
+    left: 600px;
+    background-color: rgba(24, 13, 182, 0.884);
+}
+.titulo{
+    font-family: "Poppins";
+    position: absolute;
+    bottom: 650px;
+    left: 640px;
+}

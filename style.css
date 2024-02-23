@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour&family=Workbench&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:radial-gradient(  rgb(32, 32, 211), rgb(14, 5, 139));   
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    height: 773px;
+}
+.container{
+    display: inline-block ;
+}
+ .text{
+    border-right: 1px solid;
+    width: 310px;
+    font-family: "Workbench";
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 33px;
+    letter-spacing: 5px;
+    animation: typing 1.5s steps(20),
+    cursor .4s step-end infinite alternate;
+    position: relative;
+    top: 200px;
+    left: 640px;   
+}
+@keyframes cursor{
+    50% {border-color: transparent;}
+}
+@keyframes typing{
+    from{width: 0;}
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.089);
+    padding: 1rem;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Poppins";
+    color: white;
+    margin: 50px;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+}
+nav a:hover{
+    background-color: rgba(42, 24, 204, 0.774);
+}
+h2{
+    font-size: 50px;
+    font-family: "Poppins";
+    letter-spacing: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+.certificados{
+    position: relative;
+    text-align: center;
+    top: 90px;
+    z-index: 1;
+}
+.certificados img{
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    overflow: hidden;
+    flex: 1;
+    transition: all 0.3s;
+    object-fit: cover;
+    margin: 5px;
+}
+.certificados img:hover{
+    transition: 0.5s all ease-in-out;
+    width: 500px;
+    height: 370px;
+    filter: grayscale(1);
+}
+.certificados img::after{
+   border: 2px solid white;
+   transition: 0.4s all ease-in-out;
+}
+.caixa{
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(0, 255, 255, 0.116);
+    border-radius: 1rem;
+}
+footer{
+    position:absolute;
+    top: 750px;
+    left: 600px;
+    background-color: rgba(24, 13, 182, 0.884);
+}
+
